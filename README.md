@@ -1,2 +1,3 @@
 # Konyvtar
-## Papp Niki, Berta Zoé Anna
+## Papp Niki 
+## Berta Zoé Anna
