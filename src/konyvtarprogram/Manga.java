@@ -4,7 +4,7 @@ package konyvtarprogram;
 public class Manga  extends AbstractTermek implements Kolcsonozheto{
     String grafikus;
 
-    public Manga(String cim, String iro, int allapot) {
+    public Manga(String cim, String iro,String grafikus, int allapot) {
         super(cim, iro, allapot);
        
     }
