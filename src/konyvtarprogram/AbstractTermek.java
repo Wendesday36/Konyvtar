@@ -8,6 +8,6 @@ package konyvtarprogram;
  *
  * @author PappNikoletta(SZF_20
  */
-public class AbstractTermek {
+abstract public class AbstractTermek {
     
 }
