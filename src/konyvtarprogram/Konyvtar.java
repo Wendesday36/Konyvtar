@@ -20,7 +20,22 @@ public class Konyvtar {
          for (int i = 0; i < termekek.size(); i++) {
              keszlet++;
          }
+        
      }
-     
+      public void kiir(){
+             for (int i = 0; i < termekek.size(); i++) {
+                 System.out.println(termekek.get(i));
+          }
+         }
 
+    @Override
+    public String toString() {
+        return "Konyvtar{" + "keszlet=" + keszlet + ", allapot=" + allapot + ", termekek=" + termekek + '}';
+    }
+     
+public void run(){
+    termekek();
+    kiir();
+    toString();
+}
 }
