@@ -7,6 +7,12 @@ abstract public class AbstractTermek {
    private String cim;
    private String iro;
 
+    public AbstractTermek(String cim, String iro) {
+        this.cim = cim;
+        this.iro = iro;
+    }
+
+    
     public UUID getId() {
         return id;
     }
@@ -21,7 +27,7 @@ abstract public class AbstractTermek {
 
     @Override
     public String toString() {
-        return "AbstractTermek{" + "id=" + id + ", cim=" + cim + ", iro=" + iro + '}';
+        return "AbstractTermek{" + "id=" + id + ", cim=" + getCim() + ", iro=" + getIro() + '}';
     }
    
    
