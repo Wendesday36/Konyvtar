@@ -4,12 +4,19 @@ package konyvtarprogram;
 public class Manga  extends AbstractTermek implements Kolcsonozheto{
     String grafikus;
 
-    public Manga(String cim, String iro,String grafikus) {
-        super(cim, iro);
+    public Manga(String cim, String iro, int allapot) {
+        super(cim, iro, allapot);
+       
     }
+
+    
     @Override
     public boolean kolcsonozheto() {
-        System.out.println("Kölcsönözhető");
+        if(super.getAllapot()==1){
+            System.out.println("Kölcsönözhető");
+            
+        }
+        
         return true;
    
     }
