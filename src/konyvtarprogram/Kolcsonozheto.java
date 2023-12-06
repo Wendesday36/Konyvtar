@@ -1,6 +1,10 @@
 
+
 package konyvtarprogram;
 
-public class Kolcsonozheto {
-    
+
+
+
+public interface Kolcsonozheto {
+
 }

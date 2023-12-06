@@ -1,5 +1,10 @@
 package konyvtarprogram;
 
-public class AbstractTermek {
+
+
+
+
+
+abstract public class AbstractTermek {
 
 }
